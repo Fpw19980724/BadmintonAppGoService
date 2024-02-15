@@ -1,0 +1,34 @@
+# GoLand IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Go build artifacts and cache
+build/
+dist/
+bin/
+pkg/
+
+# Test binary, built with `go test -c`
+*.test
+cover.out
+
+# Golang's cache directory
+go.sum
+!backend/go.mod
+!go.sum.lock
+
+# OS-specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
