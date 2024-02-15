@@ -17,7 +17,7 @@ cover.out
 
 # Golang's cache directory
 go.sum
-!backend/go.mod
+backend/go.mod
 !go.sum.lock
 
 # OS-specific files

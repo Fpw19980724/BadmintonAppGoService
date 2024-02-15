@@ -1,0 +1,10 @@
+server:
+  port: 1016
+datasource:
+  driveName: mysql
+  host: 47.96.41.57
+  port: 3306
+  database: badminton_app
+  username: test_abc
+  password: test_abc
+  charset: utf8
